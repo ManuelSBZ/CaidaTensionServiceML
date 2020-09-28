@@ -30,7 +30,7 @@ class TensionList(generics.ListAPIView):
     data= {k:v for k,v in request.data.items()}
     model=Ct()
     print("before error")
-    data["ct"]= model.predict(data.get("carga"),data.get("temperatura"))
+    data["ct"]= model.predict(float(data.get("carga")), float(data.get("temperatura")))
     print(data)
     serializer=DatosCalculoCTSerializerpost(data=data)
     print(serializer.is_valid())

@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import path, include
 from .views import TensionList, TensionDetail
-from rest_framework import routers
+# from rest_framework import routers
 
 # router=routers.DefaultRouter()
 # router.register('',VideoJuegosView)
