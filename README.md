@@ -2,7 +2,7 @@
 COMPONENTE API - Modelo predictivo de caída de Tensión en Linea de Cobre
 
 El presente proyecto anexa un modelo predictivo que estima el porcentaje de caida de tensión de un cable de cobre de calibre 1/0 AWG
-de 100mt de longitud, tensionada con 240V ac.
+de 100mt de longitud,tensionada con 240V ac. Modelo que fue construido mediante el la implementacion de librerias de Machine Learning usando el metodo de Regresión no lineal.
 
 - Tecnologias principales:
   1. Sklearn
