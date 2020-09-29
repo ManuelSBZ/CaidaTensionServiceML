@@ -1,0 +1,19 @@
+# CaidaTensionServiceML
+COMPONENTE API - Modelo predictivo de caída de Tensión en Linea de Cobre
+
+El presente proyecto anexa un modelo predictivo que estima el porcentaje de caida de tensión de un cable de cobre de calibre 1/0 AWG
+de 100mt de longitud, tensionada con 240V ac.
+
+- Tecnologias principales:
+  1. Sklearn
+  2. Pandas
+  3. Scipy
+  3. Gunicorn
+  4. Django
+  5. Django-RestFramework
+  
+- Para explorar la solucion se debe:
+  1. Clonar el repositorio.
+  2. Abrir simbolo del sistema.
+  3. Ubicarse desde la consola en la carpeta que contiene el docker-compose.yaml dentro del proyecto.
+  4. Ejecutar " docker-compose up --build ".  
