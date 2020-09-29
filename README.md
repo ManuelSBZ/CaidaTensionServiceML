@@ -18,4 +18,4 @@ de 100mt de longitud, tensionada con 240V ac.
   3. Ubicarse desde la consola en la carpeta que contiene el docker-compose.yaml dentro del proyecto.
   4. Ejecutar " docker-compose up --build ".
   
-- Para probar la api se recomienda hacer uso de postman, cliente en el cual se tiene una coleccion de 93 endpoints para las distintas operaciones CRUD. Para acceder a la coleccion usar el siguiente url Postman https://www.getpostman.com/collections/c71ce12bab9a14ebb0ea.
+- Para probar la api se recomienda hacer uso de postman, cliente en el cual se tiene una coleccion de 6 endpoints para las distintas operaciones CRUD. Para acceder a la coleccion usar el siguiente url Postman https://www.getpostman.com/collections/c71ce12bab9a14ebb0ea .
