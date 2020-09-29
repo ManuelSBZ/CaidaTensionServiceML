@@ -8,9 +8,12 @@ de 100mt de longitud, tensionada con 240V ac.
   1. Sklearn
   2. Pandas
   3. Scipy
-  3. Gunicorn
+  3. Gunicorn 20.0.4
   4. Django
   5. Django-RestFramework
+  6. Sqlite
+  7. Docker 19.03.12 
+  8. Python 3.6
   
 - Para explorar la solucion se debe:
   1. Clonar el repositorio.
